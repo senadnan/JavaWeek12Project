@@ -16,7 +16,7 @@ Employee:
    add a constructor to initialize all the fields
    add a default constructor with no fields
 
-   toString()
+   toString() this is a instance method owned by the project, it takes no parameter, return type String
 
    When do we need this. keyword?
 
