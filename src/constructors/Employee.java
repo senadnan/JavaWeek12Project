@@ -6,15 +6,15 @@ public class Employee {
     public String name, JobTitle;
     public int ID;
     public double salary;
-    public static String companyName = "Microsoft";
+    public static String companyName;
+    //public static  boolean isHumaan = true;
 
-/*
+
     static {
         companyName = "Microsoft";
     }
 
 
- */
     public Employee() {
         salary =10000; // default salary for employee objects
     }

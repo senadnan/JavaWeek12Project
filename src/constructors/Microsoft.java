@@ -13,6 +13,9 @@ public class Microsoft {
         employee1.ID = 4525;
         employee1.JobTitle = "SDET";
         employee1.salary = 1200000;
+        System.out.println(employee1.companyName);
+
+
 
 
         System.out.println(employee1);
@@ -42,8 +45,13 @@ public class Microsoft {
 /*
 Note: You can change or call static field through object or ClassName, but second one maybe preferable
  */
+// employeeOne.companyName = "Tesla";
+        Employee.companyName = "Tesla";
+        // company name for each employee
+        for(Employee each : team){
+            System.out.println(each.name+" is working for "+each.companyName);
+        }
 
-        
 
 
     }
