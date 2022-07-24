@@ -1,3 +1,23 @@
 Constructors: special methods, it is a MUST for a class, it might be used to initialize your fields
 
 Object : new ClassName() --> we are invoking/calling the instructor
+
+
+accessModifier className(){
+statements
+}
+
+Task 1:
+
+Employee:
+    attribute/fields/variables
+   name, jobTitle, ID, salary
+
+   add a constructor to initialize all the fields
+   add a default constructor with no fields
+
+   toString()
+
+   When do we need this. keyword?
+
+   - When your parameter variable name is same with instance variable
