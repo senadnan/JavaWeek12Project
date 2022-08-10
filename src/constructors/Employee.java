@@ -7,7 +7,7 @@ public class Employee {
     public int ID;
     public double salary;
     public static String companyName;
-    //public static  boolean isHumaan = true;
+    //public static  boolean isHuman = true;
 
 
     static {

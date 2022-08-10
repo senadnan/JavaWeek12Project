@@ -12,7 +12,7 @@ public class StaticMethods {
     }
 
     public void instanceMethod(){
-        System.out.println("İnstance method called");
+        System.out.println("Instance method called");
         System.out.println(num);
         System.out.println(count);
         displayMessage("hello from instance method");
